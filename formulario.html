@@ -64,7 +64,7 @@
 
 
         <div class="containe">
-          <form action="https://api.staticforms.xyz/submit" method="post">
+          <form id="form" action="https://api.staticforms.xyz/submit" method="post">
           <div class="row">
             <div class="col-25">
               <label for="fname">Nome:</label>
@@ -79,6 +79,14 @@
             </div>
             <div class="col-75">
               <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="Email" name="Email" placeholder="Digite seu email">
             </div>
           </div>
           <div class="row">
@@ -104,8 +112,9 @@
           </div>
           <br>
           <div class="row">
-            <input type="submit" value="Enviar">
+            <input type="submit" onclick="Enviar();" value="Enviar">
           </div>
+
 
 
           <input type="hidden" name="accessKey" value="0d87bb49-71cc-40b7-85bf-11084ee827a6">
@@ -117,7 +126,8 @@
           <p> Todos os Direitos Reservados &copy 2022 Alunos SENAC</p>
       </div>
 
-    
+
+       <script src="/js/formulario.js"></script>
         </body>
         </html>
         

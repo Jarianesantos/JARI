@@ -222,6 +222,9 @@ body{
     text-align: center;
     color: #ccc;
   }
+  .span-required{
+    display: none;
+  }
 
   .footer {
     position: relative;
